@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: beige;
+}
+
+.headerWrap {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  color:rgb(56, 4, 4); 
+  background-color: rgb(221, 253, 205);
+  cursor: pointer;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  gap: 20px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.addBtn {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(221, 253, 205);
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 10%;
+    font-weight: 700;
+}
+
+.addBtn:hover {
+  background-color: green;
+  color: white;
+  box-shadow: 3px 3px rgb(1, 32, 6);
+  cursor: pointer;
+  
+}
+
+.input {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  font-size: large;
+}
+
+.select {
+ padding: 10px;
+ border-radius: 5px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.mainWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.listWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 45%;
+  font-size: large;
+}
+
+.listWrap:hover {
+  background-color: rgb(246, 246, 188);
+
+}
+.done {
+  padding: 8px;
+  border-radius: 10%;
+}
+.done:hover {
+  background-color: green;
+  color:white;
+}
+.delete {
+  padding: 8px;
+  border-radius: 10%;
+}
+.delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.footerWrap {
+  background-color: rgb(221, 253, 205);
+  font-weight: 600;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  padding: 15px;
+  margin: 45px;
+
+}
