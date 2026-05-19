@@ -6,7 +6,7 @@ const Form = ({ addItems }) => {
   const [quantity, setQuantity] = useState(1);
 
 
-// za submittanje kaj napises v input polje
+
   const Submit = (e) => {
     e.preventDefault();
     if (product) {
