@@ -5,8 +5,6 @@ const Form = ({ addItems }) => {
   const [product, setProduct] = useState("");
   const [quantity, setQuantity] = useState(1);
 
-
-
   const Submit = (e) => {
     e.preventDefault();
     if (product) {
@@ -32,7 +30,7 @@ return (
   <select 
   className="select" 
   value={quantity} 
-  // korisnik dok klikne na broj v dropdown onda se pojavi v state v Components
+ 
   onChange={(e) => setQuantity(Number(e.target.value))}>
 
     {[...Array(20)].map((_, index) => (
@@ -43,7 +41,7 @@ return (
       </option>
     ))}
   </select>
-  {/* za unos u polje */}
+
   <input 
   className="input" 
   type="text" 
